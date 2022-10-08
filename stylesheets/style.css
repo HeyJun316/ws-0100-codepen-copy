@@ -1,0 +1,234 @@
+html {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #131417;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.l-flex {
+  display: flex;
+}
+
+.l-align-center {
+  align-items: center;
+}
+
+.l-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.l-sidebar {
+  min-width: 188px;
+}
+
+.l-header {
+  margin: 8px;
+}
+
+.badge {
+  margin-left: 5px;
+  color: black;
+  background-color: #ffdd40;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 10px;
+}
+
+.start-coding-btn {
+  margin: 0 16px;
+  border: 3px solid transparent;
+  width: 154px;
+  padding: 0;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+}
+
+.start-coding-btn-text {
+  padding: 8px;
+  background: black;
+  width: 140px;
+}
+
+.header-signup-btn {
+  background: #47cf73;
+  color: black;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.header-login-btn {
+  background: #444857;
+  color: white;
+  padding: 10px;
+}
+
+.hero-body-text-btn {
+  background: #47cf73;
+}
+
+.highlight-beige {
+  color: #e1ca72;
+}
+
+.highlight-blue {
+  color: #7a99ad;
+}
+
+.highlight-green {
+  color: #74b087;
+}
+
+.highlight-orange {
+  color: #a88038;
+}
+
+.highlight-purple {
+  color: #9f8198;
+}
+
+.hero-body-cards {
+  width: 50%;
+  background-clip: blue;
+}
+
+.hero-body-card-background {
+  width: 495px;
+  height: 410px;
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+}
+
+.hero-body-card-html-header {
+  padding: 4px 8px;
+  justify-content: space-between;
+}
+
+.hero-body-card {
+  width: 300px;
+  height: 150px;
+  background-color: #1d1e22;
+}
+
+.card-title-text {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.hero {
+  margin: 32px;
+  background-color: red;
+}
+
+.hero-body-logo {
+  font-size: 36px;
+}
+
+.hero-body-title {
+  font-weight: 900;
+  font-size: 38px;
+  margin: 0;
+}
+
+.hero-body-text {
+  font-size: 1.1rem;
+}
+
+.header-btns {
+  margin: 8px 8px 0 5px;
+  width: 20%;
+}
+
+.codepen-logo {
+  text-align: center;
+}
+
+.search-form {
+  width: 80%;
+  background: #252830;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.search-form i {
+  font-size: 20px;
+}
+
+.search-form-input {
+  width: 100%;
+  margin-right: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  background: #252830;
+  border: 0;
+}
+
+::placeholder {
+  padding-left: 20px;
+}
+
+.sidebar {
+  background: #1F1F26;
+}
+
+.start-coding {
+  text-align: center;
+}
+
+.start-coding-text {
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+.sidebar-menu-lists {
+  padding-left: 16px;
+}
+
+.sidebar-menu-list {
+  margin-top: 20px;
+}
+
+.sidebar-menu-list a {
+  display: block;
+}
+
+.sidebar-menu-list a:hover {
+  background: black;
+}
+
+.sidebar-menu-list-title {
+  margin: -8px 0 2px 0;
+  text-align: left;
+}
+
+.warning {
+  color: #ffdd40;
+}
+
+.primary {
+  color: #47cf73;
+}
+
+.accent {
+  color: #0ebeff;
+}
+
+.weak {
+  color: #b7bbc8;
+}
+
+/*# sourceMappingURL=style.css.map */
