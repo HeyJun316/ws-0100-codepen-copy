@@ -1,0 +1,6 @@
+@use './variable' as v
+
+//メディアクエリー
+@mixin sm
+  @media (max-width: #{v.$screen-sm-min})
+    @content

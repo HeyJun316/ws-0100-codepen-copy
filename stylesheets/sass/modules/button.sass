@@ -1,4 +1,6 @@
 @use '../variable' as v
+@use '../mixin' as m
+
 .btn
   // なんでinline-block
   display: inline-block
@@ -12,20 +14,20 @@
     curosr: pointer
 
 .button-logo
-  margin: 0 16px
+  margin: 0.5px 16px 0 14px
   border: 3px solid transparent
   background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b)
-  width: 148px
+  width: 154px
   padding: 0
 
 .button-logo-text
   padding: 8px
   background: black
-  width: 140px
+  width: 148px
   display: block
 
 .header-signup-btn
-  background: v.$color-success
+  background: v.$color-accent
   color: black
   padding: 10px
   margin-right: 5px
@@ -38,23 +40,26 @@
   border: 1px solid transparent
 
 .hero-body-text-btn
-  background: v.$color-success
+  background: v.$color-primary
   border: 1px solid transparent
   color: black
   font-size: 20px
-  padding: 12px 25px
+  padding: 11px 25px
 
-.btn-success
-  background: v.$color-success
+.btn-primary
+  background: v.$color-primary
 
 .btn-secondary
   background: v.$color-secondary
 
-.header-btn-right
-  background: v.$color-secondary
-
 .header-btn-left
   color: black
+  height: 38px
+
+.header-btn-right
+  background: v.$color-secondary
+  height: 38px
+  margin-left: 8px
 
 .border-0
   border: 0

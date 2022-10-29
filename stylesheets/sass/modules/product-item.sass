@@ -1,3 +1,6 @@
+@use '../variable' as v
+@use '../mixin' as m
+
 .product-item-row
   justify-content: center
 
@@ -6,6 +9,10 @@
   margin: 30px 15px
   width: 360px
   height: 310px
+
+.fix-height
+  @include m.sm
+    height: 225px
 
 .product-message
   padding: 16px
@@ -46,6 +53,8 @@
   margin: 0
   margin-left: 15px
 
+.text-weak
+  color: #b7bbc8
 .product-item-card-footer
   padding: 8px 16px
 

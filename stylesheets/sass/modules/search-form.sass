@@ -1,9 +1,14 @@
+@use '../variable' as v
+@use '../mixin' as m
 .search-form
   width: 100%
   background: #252830
   padding: 8px
   border-radius: 4px
   margin: 8px
+  @include m.sm
+    padding-left: 8px
+    width: 52%
 
 .search-form i
   font-size: 20px
@@ -13,6 +18,8 @@
   font-weight: bold
   background: #252830
   border: 0
+  @include m.sm
+    width: 100%
 
 ::placeholder
   padding-left: 20px
