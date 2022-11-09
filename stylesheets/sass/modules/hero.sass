@@ -28,3 +28,63 @@
 
 .hero-body-text
   font-size: 16.6px
+
+.hero-body-cards
+  width: 50%
+  background-clip: blue
+  @include m.sm
+    width: 100%
+
+.hero-body-card-background
+  margin: 16px auto
+  border-radius: 6px
+  width: 495px
+  height: 410px
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%)
+  @include m.sm
+    width: 100%
+
+.hero-body-card-header
+  justify-content: space-between
+  padding: 4px 0px
+
+.hero-body-card
+  width: 300px
+  height: 140px
+  background-color: #1d1e22
+  padding: 8px
+  padding-top: 0px
+  font-size: 13px
+  margin-bottom: 8px
+
+.hero-body-card-html
+  position: relative
+  left: 160px
+  bottom: 20px
+  border-radius: 4px
+  @include m.sm
+    left: 120px
+
+.hero-body-card-scss
+  position: relative
+  left: 220px
+  bottom: 20px
+  border-radius: 4px
+  @include m.sm
+    left: 160px
+
+.hero-body-card-js
+  position: relative
+  left: 160px
+  bottom: 20px
+  border-radius: 4px
+  @include m.sm
+    left: 120px
+
+.hero-body-card p
+  margin: 0
+
+.hero-body-card-title
+  color: v.$color-secondary
+  .fa:before
+    color: v.$color-sub-text

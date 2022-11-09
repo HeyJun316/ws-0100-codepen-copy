@@ -46,6 +46,22 @@ a {
   margin: 32px 0;
 }
 
+.ml-30 {
+  margin-left: 30px !important;
+}
+
+.ml-60 {
+  margin-left: 60px !important;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mt-14 {
+  margin-top: 14px;
+}
+
 .badge {
   margin-left: 4px;
   color: black;
@@ -83,21 +99,6 @@ a {
   display: block;
 }
 
-.header-signup-btn {
-  background: #0ebeff;
-  color: black;
-  padding: 10px;
-  margin-right: 5px;
-  border: 1px solid transparent;
-}
-
-.header-login-btn {
-  background: #444857;
-  color: white;
-  padding: 10px;
-  border: 1px solid transparent;
-}
-
 .hero-body-text-btn {
   background: #47cf73;
   border: 1px solid transparent;
@@ -108,24 +109,12 @@ a {
 
 .btn-primary {
   background: #47cf73;
+  color: black;
+  border: 0;
 }
 
 .btn-secondary {
   background: #444857;
-}
-
-.header-btn-left {
-  color: black;
-  height: 38px;
-}
-
-.header-btn-right {
-  background: #444857;
-  height: 38px;
-  margin-left: 8px;
-}
-
-.border-0 {
   border: 0;
 }
 
@@ -277,102 +266,9 @@ a {
   color: #9f8198;
 }
 
-.hero-body-cards {
-  width: 50%;
-  background-clip: blue;
-}
-@media (max-width: 576px) {
-  .hero-body-cards {
-    width: 100%;
-  }
-}
-
-.hero-body-card-background {
-  margin: 16px auto;
-  border-radius: 6px;
-  width: 495px;
-  height: 410px;
-  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
-}
-@media (max-width: 576px) {
-  .hero-body-card-background {
-    width: 100%;
-  }
-}
-
-.hero-body-card-header {
-  justify-content: space-between;
-  padding: 4px 0px;
-}
-
-.hero-body-card {
-  width: 300px;
-  height: 140px;
-  background-color: #1d1e22;
-  padding: 8px;
-  padding-top: 0px;
-  font-size: 13px;
-  margin-bottom: 8px;
-}
-
-.hero-body-card-html {
-  position: relative;
-  left: 160px;
-  bottom: 20px;
-  border-radius: 4px;
-}
-@media (max-width: 576px) {
-  .hero-body-card-html {
-    left: 120px;
-  }
-}
-
-.hero-body-card-scss {
-  position: relative;
-  left: 220px;
-  bottom: 20px;
-  border-radius: 4px;
-}
-@media (max-width: 576px) {
-  .hero-body-card-scss {
-    left: 160px;
-  }
-}
-
-.hero-body-card-js {
-  position: relative;
-  left: 160px;
-  bottom: 20px;
-  border-radius: 4px;
-}
-@media (max-width: 576px) {
-  .hero-body-card-js {
-    left: 120px;
-  }
-}
-
-.hero-body-card p {
-  margin: 0;
-}
-
-.hero-body-card-title {
-  color: #444857;
-}
-.hero-body-card-title .fa:before {
-  color: #b7bbc8;
-}
-
 .card-title-text {
   margin: 0;
   margin-left: 8px;
-}
-
-.ml-30 {
-  margin-left: 30px !important;
-}
-
-.ml-60 {
-  margin-left: 60px !important;
 }
 
 .cursor {
@@ -466,19 +362,108 @@ a {
   font-size: 16.6px;
 }
 
+.hero-body-cards {
+  width: 50%;
+  background-clip: blue;
+}
+@media (max-width: 576px) {
+  .hero-body-cards {
+    width: 100%;
+  }
+}
+
+.hero-body-card-background {
+  margin: 16px auto;
+  border-radius: 6px;
+  width: 495px;
+  height: 410px;
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+}
+@media (max-width: 576px) {
+  .hero-body-card-background {
+    width: 100%;
+  }
+}
+
+.hero-body-card-header {
+  justify-content: space-between;
+  padding: 4px 0px;
+}
+
+.hero-body-card {
+  width: 300px;
+  height: 140px;
+  background-color: #1d1e22;
+  padding: 8px;
+  padding-top: 0px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.hero-body-card-html {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
+  border-radius: 4px;
+}
+@media (max-width: 576px) {
+  .hero-body-card-html {
+    left: 120px;
+  }
+}
+
+.hero-body-card-scss {
+  position: relative;
+  left: 220px;
+  bottom: 20px;
+  border-radius: 4px;
+}
+@media (max-width: 576px) {
+  .hero-body-card-scss {
+    left: 160px;
+  }
+}
+
+.hero-body-card-js {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
+  border-radius: 4px;
+}
+@media (max-width: 576px) {
+  .hero-body-card-js {
+    left: 120px;
+  }
+}
+
+.hero-body-card p {
+  margin: 0;
+}
+
+.hero-body-card-title {
+  color: #444857;
+}
+.hero-body-card-title .fa:before {
+  color: #b7bbc8;
+}
+
 .header {
   display: flex;
 }
 
-.header-btns {
+.header-buttons {
   margin: 8px 8px 0 5px;
   width: 22%;
 }
-.header-btns .header-btn-left, .header-btns .header-btn-right {
+.header-buttons .header-btn-left, .header-buttons .header-btn-right {
   min-width: 100px;
+  height: 38px;
 }
-.header-btns .header-btn-left {
+.header-buttons .header-btn-left {
   margin-right: 2px;
+}
+.header-buttons .header-btn-right {
+  margin-left: 8px;
 }
 
 .codepen-logo {
@@ -558,10 +543,6 @@ a {
 
 .menu {
   margin-top: 22px;
-}
-
-.mt14 {
-  margin-top: 14px;
 }
 
 .warning {
